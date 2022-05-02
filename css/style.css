@@ -6,6 +6,10 @@
 }
 
 /* COMMON */
+body {
+font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .container {
     width: 75%;
     margin: 0 auto;
@@ -15,21 +19,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+} 
+
+img {
+    width: 100%;
 }
 
 header {
-    background-color: pink;
+    background-color: #ff6900;
     color: white;
     height: 60px;
 }
 
 .header-menu {
-    background-color: lightblue;
     height: 60px;
-}
-
-.header-menu div {
-    border: 1px solid red;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 /* HEADER */
@@ -41,11 +46,22 @@ header {
     width: 20%;
 }
 
-.genders span:not(.first-child) {
+.genders span:not(:first-child) {
     padding-left: 5px;
 }
 
 .icons {
     width: 20%;
     text-align: right;
+}
+
+.icons i:not(:last-child) {
+    padding-right: 5px;
+}
+
+
+
+/* MAIN */
+.products div {
+    border: 1px solid red;
 }
