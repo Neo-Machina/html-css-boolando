@@ -59,9 +59,19 @@ header {
     padding-right: 5px;
 }
 
-
-
 /* MAIN */
 .products div {
     border: 1px solid red;
+}
+
+.product-list {
+    display: flex;
+    background-color: pink;
+
+}
+
+.col {
+    width: calc(100% / 3);
+    padding: 0 20px;
+    background-color: lightblue;
 }
