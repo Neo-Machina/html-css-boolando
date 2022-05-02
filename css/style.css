@@ -4,3 +4,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: pink;
+    color: white;
+    height: 60px;
+}
+
+.header-menu {
+    background-color: lightblue;
+    height: 60px;
+}
+
+.header-menu div {
+    border: 1px solid red;
+}
+
+/* HEADER */
+.logo-boolean {
+    width: 110px;
+} 
+
+.genders {
+    width: 20%;
+}
+
+.genders span:not(.first-child) {
+    padding-left: 5px;
+}
+
+.icons {
+    width: 20%;
+    text-align: right;
+}
