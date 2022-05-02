@@ -92,7 +92,15 @@ main {
 
 .img-back {
     display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
+
+.product:hover .img-back {
+    display: block;
+}
+
 
 .heart {
     background-color: white;
