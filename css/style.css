@@ -34,6 +34,7 @@ header {
     position: fixed;
     top: 0;
     left: 0; 
+    z-index: 1;
 }
 
 .header-menu {
@@ -68,13 +69,9 @@ header {
 main {
     margin-top: 60px;
 }
-.product div {
-    border: 1px solid red;
-}
 
 .products-list {
     display: flex;
-    background-color: pink;
     flex-wrap: wrap
 
 }
@@ -82,7 +79,6 @@ main {
 .col {
     width: calc(100% / 3);
     padding: 0 20px;
-    background-color: lightblue;
 }
 
 .products-list col:not(3,6) {
@@ -146,3 +142,43 @@ main {
 .old-price {
     text-decoration: line-through;
 }
+
+/* FOOTER */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    height: 80px;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.col-footer {
+    line-height: 1.7;
+    font-size: 12px;
+}
+
+.info-footer div:first-child {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.info-footer div span {
+    padding: 0 4px;
+}
+
+.socials div:first-child {
+    padding-left: 5px;
+}
+
+.social-icons i {
+    padding: 0 5px;
+    font-size: 15px;
+}
+
