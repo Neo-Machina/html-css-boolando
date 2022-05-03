@@ -98,7 +98,7 @@ main {
 }
 
 .product:hover .img-back {
-    display: block;
+    display: inline-block;
 }
 
 
@@ -110,6 +110,10 @@ main {
     top: 10px;
     padding: 0 10px;
     font-size: 30px;
+}
+
+.heart:hover {
+    color: red;
 }
 
 .discount {
